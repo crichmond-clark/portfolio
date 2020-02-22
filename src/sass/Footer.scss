@@ -5,19 +5,41 @@
   display: grid;
   grid-template-columns: 1fr .1fr 1fr;
   align-items: center;
+  text-shadow: 0 7px 7px rgba(0, 0, 0, .5);
 
   p {
     justify-self: end;
+
+    .name {
+      margin-right: .5rem;
+    }
+
+    .year {
+      margin-left: .5rem;
+    }
   }
 
 
 
 }
 
+.icon-link {
+  margin-right: 1.5rem;
+}
+
+.fa-icon {
+  font-size: 3.5rem;
+  transition: all .2s;
+
+  &:hover {
+    transform: translateY(-10%);
+    cursor: pointer;
+  }
+}
+
 .divider {
   width: 1px;
   height: 90%;
-  // background: rgba(243, 243, 243, .5);
   border-right: outset 1px rgba(243, 243, 243, .5);
   justify-self: center;
 }

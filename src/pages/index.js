@@ -8,6 +8,14 @@ const IndexPage = () => {
   return (
     <div className="container">
       <Navigation />
+      <main className="main">
+        <div>
+          <h1 className="heading-primary">Connor Richmond-Clark</h1>
+          <h2 className="heading-secondary">. Front-End Developer .</h2>
+        </div>
+
+        <a href="/projects">Projects</a>
+      </main>
       <Footer />
     </div>
   );

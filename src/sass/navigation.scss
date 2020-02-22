@@ -1,6 +1,8 @@
+// nav {
+//   height: 6.25rem
+// }
+
 .nav-list {
-  // display: grid;
-  // grid-template-columns: repeat(3, minmax(0, 1fr));
   display: flex;
   height: 6.25rem
 }
@@ -11,6 +13,11 @@
   flex-grow: 1;
   display: flex;
   border-left: none;
+  transition: all .3s;
+
+  &:hover {
+    background: #494949;
+  }
 
   a {
     flex-grow: 1;
@@ -24,5 +31,3 @@
     border-right: none;
   }
 }
-
-.nav {}
