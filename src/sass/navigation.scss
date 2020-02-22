@@ -1,0 +1,28 @@
+.nav-list {
+  // display: grid;
+  // grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: flex;
+  height: 6.25rem
+}
+
+.nav-item {
+  border: outset 1px rgba(243, 243, 243, .5);
+  border-top: none;
+  flex-grow: 1;
+  display: flex;
+  border-left: none;
+
+  a {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 7px 7px rgba(0, 0, 0, .5);
+  }
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.nav {}

@@ -1,12 +1,16 @@
-import React from "react"
-import Header from "../components/Header"
+import React from 'react';
+import Navigation from '../components/navigation';
+import Footer from '../components/footer';
+import '../sass/global.scss';
+import '../sass/index.scss';
 
 const IndexPage = () => {
   return (
-    <div>
-      <Header />
+    <div className="container">
+      <Navigation />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;

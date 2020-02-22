@@ -1,0 +1,23 @@
+.footer {
+  align-self: end;
+  border-top: inset 1px rgba(243, 243, 243, .5);
+  height: 6.25rem;
+  display: grid;
+  grid-template-columns: 1fr .1fr 1fr;
+  align-items: center;
+
+  p {
+    justify-self: end;
+  }
+
+
+
+}
+
+.divider {
+  width: 1px;
+  height: 90%;
+  // background: rgba(243, 243, 243, .5);
+  border-right: outset 1px rgba(243, 243, 243, .5);
+  justify-self: center;
+}
