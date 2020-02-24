@@ -4,7 +4,6 @@ import {
   faHtml5,
   faCss3Alt,
   faJsSquare,
-  faSass,
   faReact
 } from '@fortawesome/free-brands-svg-icons';
 import Navigation from '../components/navigation';

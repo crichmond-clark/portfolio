@@ -3,8 +3,8 @@ import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 import ProjectCard from '../components/projectCard';
 import '../sass/projects.scss';
-import calcImg from '../../public/static/calcthumb.png';
-import conqImg from '../../public/static/conq2.png';
+import calcImg from '../../static/calcthumb.png';
+import conqImg from '../../static/conq.png';
 
 const ProjectsPage = () => {
   const projects = [
