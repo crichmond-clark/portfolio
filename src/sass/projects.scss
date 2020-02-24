@@ -1,0 +1,12 @@
+.project-heading {
+  margin: 2rem 0 2rem 1rem;
+  grid-column: 2 / 3;
+  color: #bbbbbb;
+  text-shadow: 0 7px 7px rgba(37, 37, 37, 0.5);
+}
+
+.projects-main {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  gap: 2rem;
+}

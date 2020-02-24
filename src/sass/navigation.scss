@@ -1,10 +1,7 @@
-// nav {
-//   height: 6.25rem
-// }
-
 .nav-list {
   display: flex;
-  height: 6.25rem
+  height: 5rem;
+
 }
 
 .nav-item {
@@ -24,7 +21,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 0 7px 7px rgba(0, 0, 0, .5);
+    // text-shadow: 0 7px 7px rgba(37, 37, 37, 0.5);
+    color: #979797;
+    box-shadow: 0 7px 7px rgba(37, 37, 37, 0.5);
+
   }
 
   &:last-child {

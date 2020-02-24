@@ -14,7 +14,9 @@ const IndexPage = () => {
           <h2 className="heading-secondary">. Front-End Developer .</h2>
         </div>
 
-        <a href="/projects">Projects</a>
+        <a href="/projects" className="projects-button">
+          Projects
+        </a>
       </main>
       <Footer />
     </div>

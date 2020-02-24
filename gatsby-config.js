@@ -9,8 +9,22 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sass',
       options: {
-        includePaths: ['src/sass'],
-      },
+        includePaths: ['src/sass']
+      }
     },
-  ],
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Tomorrow`,
+            variants: [`200`]
+          },
+          {
+            family: `Montserrat`
+          }
+        ]
+      }
+    }
+  ]
 };

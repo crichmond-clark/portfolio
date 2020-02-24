@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <p>
         <span className="name">Connor Richmond-Clark</span>
-        <FontAwesomeIcon icon={faCopyright} />
+        <FontAwesomeIcon icon={faCopyright} className="cp-icon" />
         <span className="year">2020</span>
       </p>
       <span className="divider"></span>

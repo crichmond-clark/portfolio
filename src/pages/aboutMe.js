@@ -5,7 +5,7 @@ import {
   faCss3Alt,
   faJsSquare,
   faSass,
-  faReact,
+  faReact
 } from '@fortawesome/free-brands-svg-icons';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
@@ -15,39 +15,44 @@ const AboutMePage = () => {
   return (
     <div className="container">
       <Navigation />
-      <main>
-        <p>
+      <main className="about-me-main">
+        <p className="about-me-p-1">
           Hello, I'm a part-time 3rd year Computing & IT student studying at The
           Open University. As well as a hopeful web developer. I have discovered
           a passion for programming, the feeling of achievement when finally
           finding a solution to a problem has left me hooked and wanting more.
         </p>
-        <div>
+        <div className="tech-stack">
           <h2>My technology stack is</h2>
           <div>
-            <FontAwesomeIcon icon={faHtml5} className="fa-icon" />
+            <FontAwesomeIcon icon={faHtml5} className="icon" />
             <p>HTML5</p>
           </div>
           <div>
-            <FontAwesomeIcon icon={faCss3Alt} className="fa-icon" />
+            <FontAwesomeIcon icon={faCss3Alt} className="icon" />
             <p>CSS3</p>
           </div>
           <div>
-            <FontAwesomeIcon icon={faJsSquare} className="fa-icon" />
+            <FontAwesomeIcon icon={faJsSquare} className="icon" />
             <p>JavaScript (ES6)</p>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faSass} className="fa-icon" />
+          {/* <div>
+            <FontAwesomeIcon icon={faSass} className="icon" />
             <p>Sass</p>
-          </div>
+          </div> */}
         </div>
-        <div>
+        <div className="tech-learning">
           <h2>Currently learning</h2>
           <div>
-            <FontAwesomeIcon icon={faReact} className="fa-icon" />
+            <FontAwesomeIcon icon={faReact} className="icon" />
             <p>React</p>
           </div>
         </div>
+        <p className="about-me-p-2">
+          In my spare time, if i'm not coding then I am likely enjoying a game
+          of overwatch with my friends or spending some quality time with my
+          cat.
+        </p>
       </main>
       <Footer />
     </div>
