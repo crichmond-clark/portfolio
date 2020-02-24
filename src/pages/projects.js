@@ -14,7 +14,7 @@ const ProjectsPage = () => {
       alt: 'a calculator',
       desc:
         'I decided to use this project to practice what I had learned about React and experiement with CSS in JS using the styled components library. In addition to learning react, it also helped me realise the benefits of using multiple git branches during development.',
-      live: 'https://musing-boyd-4d0b55.netlify.com/',
+      live: 'https://react-calculator-omega.now.sh',
       github: 'https://github.com/crichmond-clark/react-calculator'
     },
     {
