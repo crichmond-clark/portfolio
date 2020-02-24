@@ -7,7 +7,7 @@ import '../sass/projectCard.scss';
 const ProjectCard = ({ title, img, alt, desc, live, github }) => {
   return (
     <div className="card">
-      <a href={live}>
+      <a href={live} className="img-link">
         <div class="img-div">
           <img src={img} alt={alt} />
         </div>

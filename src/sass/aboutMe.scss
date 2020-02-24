@@ -12,6 +12,10 @@
   justify-items: center;
   text-align: center;
   text-shadow: none;
+
+  @media (max-width: 500px) {
+    font-size: .8rem;
+  }
 }
 
 .about-me-p-1 {

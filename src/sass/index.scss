@@ -34,6 +34,12 @@
   }
 }
 
+.heading-primary {
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+  }
+}
+
 .heading-secondary {
   font-family: 'Tomorrow';
   font-weight: 200;

@@ -2,6 +2,10 @@
   display: flex;
   height: 5rem;
 
+  @media (max-width: 500px) {
+    height: 3rem;
+  }
+
 }
 
 .nav-item {

@@ -9,6 +9,11 @@
   text-shadow: 0 7px 7px rgba(37, 37, 37, 0.5);
   box-shadow: 0 -2px 7px rgba(37, 37, 37, 0.5);
 
+  @media (max-width: 500px) {
+    text-align: center;
+    height: 2rem;
+  }
+
 
   p {
     justify-self: end;

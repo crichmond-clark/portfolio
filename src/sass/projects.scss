@@ -5,8 +5,15 @@
   text-shadow: 0 7px 7px rgba(37, 37, 37, 0.5);
 }
 
+
 .projects-main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  gap: 2rem;
+  row-gap: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
 }
