@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ARCHITECT.DEV - Digital Alchemist',
+  title: 'crichmondclark.dev - Portfolio',
   description: 'Fusing deep digital textures with refined minimalism.',
 };
 

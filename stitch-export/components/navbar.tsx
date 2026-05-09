@@ -11,7 +11,7 @@ export function NavBar() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="fixed top-0 left-0 right-0 z-40 flex justify-between items-center w-full mt-6 md:mt-10 px-6 md:px-20"
     >
-      <a className="font-display text-lg font-bold tracking-[0.1em] text-on-surface hover:text-on-surface-variant transition-colors uppercase" href="#hero">ARCHITECT.DEV</a>
+      <a className="font-display text-lg font-bold tracking-[0.1em] text-on-surface hover:text-on-surface-variant transition-colors uppercase" href="#hero">crichmondclark.dev</a>
       <div className="hidden md:flex items-center gap-10">
         <a className="text-on-surface-variant font-mono text-xs hover:text-on-surface transition-colors tracking-widest uppercase" href="#projects">Work</a>
         <a className="text-on-surface-variant font-mono text-xs hover:text-on-surface transition-colors tracking-widest uppercase" href="#about">About</a>

@@ -14,7 +14,7 @@ export function Footer() {
     >
       <div className="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-end gap-8">
         <div>
-          <a className="font-display text-2xl font-bold tracking-[0.1em] text-on-surface block mb-6 uppercase" href="#hero">ARCHITECT.DEV</a>
+          <a className="font-display text-2xl font-bold tracking-[0.1em] text-on-surface block mb-6 uppercase" href="#hero">crichmondclark.dev</a>
           <p className="font-body text-sm text-on-surface-variant/60 uppercase tracking-wider">© {year} Connor Richmond. All rights reserved.</p>
         </div>
         <div className="flex flex-wrap gap-8 md:gap-16">
