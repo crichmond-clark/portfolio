@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { ProjectsSection } from "@/components/projects-section";
+import { About } from "@/components/about";
 import { NavBar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { getProjects } from "@/lib/content";
@@ -16,6 +17,7 @@ export default function Home() {
 
       <Hero />
       <ProjectsSection projects={projects} />
+      <About />
 
       <Footer />
     </>
