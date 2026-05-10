@@ -19,7 +19,7 @@ export function NavBar() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-40 flex justify-between items-center w-full px-6 md:px-20 py-4 transition-all duration-300 ${
-        scrolled ? "bg-surface-container-low/70 backdrop-blur-md border-b border-outline-variant/10" : "bg-transparent border-b border-transparent"
+        scrolled ? "bg-surface-container-low/60 backdrop-blur-md border-b border-outline-variant/10" : "bg-transparent border-b border-transparent"
       }`}
     >
       <a className="font-display text-lg font-bold tracking-[0.1em] text-on-surface hover:text-on-surface-variant transition-colors uppercase" href="#hero">crichmondclark.dev</a>
