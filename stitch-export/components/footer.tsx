@@ -18,10 +18,9 @@ export function Footer() {
           <p className="font-body text-sm text-on-surface-variant/60 uppercase tracking-wider">© {year} Connor Richmond. All rights reserved.</p>
         </div>
         <div className="flex flex-wrap gap-8 md:gap-16">
-          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 cursor-pointer tracking-widest uppercase" href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 cursor-pointer tracking-widest uppercase" href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 cursor-pointer tracking-widest uppercase" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 cursor-pointer tracking-widest uppercase" href="https://read.cv" target="_blank" rel="noopener noreferrer">Read.cv</a>
+          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 tracking-widest uppercase" href="https://github.com/crichmond-clark" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 tracking-widest uppercase" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a className="font-mono text-xs text-on-surface-variant hover:text-on-surface hover:-translate-y-1 transition-all duration-300 tracking-widest uppercase" href="https://read.cv" target="_blank" rel="noopener noreferrer">Read.cv</a>
         </div>
       </div>
     </motion.footer>
