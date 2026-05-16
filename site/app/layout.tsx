@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Syne, Geist, JetBrains_Mono } from 'next/font/google';
+import { Space_Grotesk, Geist, JetBrains_Mono } from 'next/font/google';
 import './globals.css'; // Global styles
 
-const syne = Syne({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-syne',
+  variable: '--font-space-grotesk',
 });
 
 const geist = Geist({
@@ -19,12 +19,12 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: 'crichmondclark.dev - Portfolio',
-  description: 'Fusing deep digital textures with refined minimalism.',
+  description: 'Full-stack developer building web systems, automation, and AI-powered tooling.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className={`${syne.variable} ${geist.variable} ${jetbrainsMono.variable} dark`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${geist.variable} ${jetbrainsMono.variable} dark`}>
       <body className="antialiased selection:bg-surface-container-highest selection:text-on-surface" suppressHydrationWarning>
         {children}
       </body>

@@ -30,7 +30,7 @@
   --color-tertiary-container: #0f0032;
   --color-on-tertiary-container: #895bf4;
 
-  --font-display: var(--font-syne);
+  --font-display: var(--font-space-grotesk);
   --font-body: var(--font-geist);
   --font-mono: var(--font-jetbrains-mono);
 }

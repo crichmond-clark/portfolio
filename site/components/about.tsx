@@ -19,10 +19,10 @@ export function About() {
           className="max-w-2xl"
         >
           <p className="font-body text-on-surface-variant/80 text-lg leading-relaxed mb-8">
-            Full-stack developer focused on building premium web experiences. I work across the stack — from Django backends to React frontends — with an emphasis on clean architecture and intentional design.
+            I’m a full-stack developer who builds reliable web applications and the systems around them — backends, frontends, databases, deployment workflows, automation, and AI-assisted tooling. I’m especially interested in moving deeper into DevOps, platform engineering, and AI infrastructure.
           </p>
           <div className="flex flex-wrap gap-4">
-            {["TypeScript", "React", "Next.js", "Django", "PostgreSQL"].map((tech) => (
+            {["TypeScript", "React", "Next.js", "Django", "Python", "PostgreSQL", "Docker", "Linux", "CI/CD", "Automation", "AI Tooling", "Infrastructure"].map((tech) => (
               <span
                 key={tech}
                 className="font-mono text-[10px] text-on-surface-variant/60 uppercase tracking-widest px-3 py-1 border border-outline-variant/10"

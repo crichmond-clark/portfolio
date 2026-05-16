@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export function Hero() {
   return (
-    <main className="relative min-h-[90vh] flex items-center pt-40 pb-32 px-6 md:px-20 overflow-hidden">
+    <main id="hero" className="relative min-h-[90vh] flex items-center pt-40 pb-32 px-6 md:px-20 overflow-hidden">
       <HeroBackground />
 
       <div className="max-w-[1440px] mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-16 relative z-10">
@@ -18,16 +18,16 @@ export function Hero() {
         >
           <div className="mb-14 flex items-center gap-4">
             <div className="w-8 h-[1px] bg-outline-variant/60"></div>
-            <span className="font-mono text-xs text-on-surface-variant tracking-[0.2em] uppercase">Creative Technologist & Designer</span>
+            <span className="font-mono text-xs text-on-surface-variant tracking-[0.2em] uppercase">Full-Stack Developer · DevOps · AI Infrastructure</span>
           </div>
 
           <h1 className="font-display text-5xl md:text-[88px] font-bold text-on-surface mb-12 max-w-4xl leading-[1.1] tracking-tight">
-            Architecting
-            <span className="block mt-4 font-normal text-surface-tint">Digital Experiences</span>
+            Building web systems,
+            <span className="block mt-4 font-normal text-surface-tint">automation & AI tooling</span>
           </h1>
 
           <p className="font-body text-xl text-on-surface-variant/80 max-w-2xl mb-16 pl-4 border-l border-outline-variant/20 leading-relaxed">
-            Fusing deep digital textures with refined minimalism to create premium, intentional web environments. Moving beyond generic paradigms.
+            I build full-stack applications, backend services, deployment workflows, and internal tools — with a growing focus on DevOps, platform engineering, and AI infrastructure.
           </p>
 
           <div className="flex gap-8 items-center">

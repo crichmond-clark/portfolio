@@ -1,12 +1,12 @@
 ---
 title: "Business Finder"
-description: "Internal lead-generation tool for finding small businesses with missing, broken, or weak websites using Google Places API."
+description: "Internal automation tool for discovering small businesses with missing or weak websites, scoring opportunities, and exporting qualified leads."
 tech: ["Python", "FastAPI", "SQLite", "Turso", "Google Places API"]
 github: "https://github.com/crichmond-clark/business-finder"
 featured: true
 ---
 
-Lead-generation tool for finding small businesses with missing, broken, or weak websites using Google Places API.
+Internal automation tool for discovering small businesses with missing or weak websites. Built with Python, FastAPI, SQLite/Turso, and Google Places API, with scoring, filtering, and export workflows for lead qualification.
 
 **Features:**
 - CLI scanning with configurable pages and location filters
