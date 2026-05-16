@@ -24,14 +24,8 @@ export function NavBar() {
     >
       <a className="font-display text-lg font-bold tracking-[0.1em] text-on-surface hover:text-on-surface-variant transition-colors uppercase" href="#hero">crichmondclark.dev</a>
       <div className="hidden md:flex items-center gap-10">
-        <a className="relative text-on-surface-variant font-mono text-xs hover:text-sm hover:text-on-surface transition-all duration-300 tracking-widest uppercase group" href="#projects">
-          <span className="peer">Work</span>
-          <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-outline-variant group-hover:w-full transition-all duration-300"></span>
-        </a>
-        <a className="relative text-on-surface-variant font-mono text-xs hover:text-sm hover:text-on-surface transition-all duration-300 tracking-widest uppercase group" href="#about">
-          <span className="peer">About</span>
-          <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-outline-variant group-hover:w-full transition-all duration-300"></span>
-        </a>
+        <a className="text-on-surface-variant font-mono text-sm hover:text-on-surface hover:border-b hover:border-outline-variant transition-all duration-300 tracking-widest uppercase" href="#projects">Work</a>
+        <a className="text-on-surface-variant font-mono text-sm hover:text-on-surface hover:border-b hover:border-outline-variant transition-all duration-300 tracking-widest uppercase" href="#about">About</a>
       </div>
       <a className="text-on-surface border-b border-transparent pb-1 font-mono text-xs flex items-center gap-2 hover:border-on-surface transition-all duration-300 group tracking-widest uppercase" href="#connect">
         <span className="group-hover:translate-x-1 transition-transform">Connect</span>
