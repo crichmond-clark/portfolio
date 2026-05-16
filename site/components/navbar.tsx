@@ -27,7 +27,7 @@ export function NavBar() {
         <a className="text-on-surface-variant font-mono text-sm hover:text-on-surface hover:border-b hover:border-outline-variant transition-all duration-300 tracking-widest uppercase" href="#projects">Work</a>
         <a className="text-on-surface-variant font-mono text-sm hover:text-on-surface hover:border-b hover:border-outline-variant transition-all duration-300 tracking-widest uppercase" href="#about">About</a>
       </div>
-      <a className="text-on-surface border-b border-transparent pb-1 font-mono text-xs flex items-center gap-2 hover:border-on-surface transition-all duration-300 group tracking-widest uppercase" href="#connect">
+      <a className="text-on-surface border-b border-transparent pb-1 font-mono text-xs flex items-center gap-2 hover:border-on-surface transition-all duration-300 group tracking-widest uppercase" href="mailto:crichmondclark@gmail.com">
         <span className="group-hover:translate-x-1 transition-transform">Connect</span>
         <ArrowRight className="w-4 h-4 font-light group-hover:translate-x-2 transition-transform" />
       </a>
